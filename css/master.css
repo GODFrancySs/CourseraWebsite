@@ -1,0 +1,178 @@
+body {
+    background: url("https://img.freepik.com/fotos-gratis/abstrato-de-luxo-macio-fundo-vermelho-design-de-layout-de-dia-dos-namorados-de-natal-modelo-de-web-de-estudio-relatorio-de-negocios-com-cor-gradiente-de-circulo-suave_1258-102213.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: red;
+    font: 3em Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font: 1em Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+    font: 1.5em Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font: 1em Arial, sans-serif;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+a {    
+    display: flex;
+    justify-content: center;
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    font: 1em Arial, sans-serif;;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#img-container img {
+    width: 70%;
+    border-radius: 50%;
+    border: 5px solid red;
+    box-shadow: 0 0 10px red;
+    margin-bottom: 10px;
+}
+
+.guns {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px auto;
+}
+
+#portfolio-container, #gamer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item, .gamer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {  
+    width: 100%;
+}
+
+.portfolio-item b, .gamer-item h3 {
+    color: white;
+    font-size: 1.5rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.portfolio-item p, .gamer-item p {
+    color: white;
+    font-size: 0.7rem;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.portfolio-item button {
+    margin-top: auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.portfolio-item button:hover {
+    padding: 5px 20px;
+    color: red;
+}
+
+#gamer-container textarea {
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9rem;
+    resize: none;
+    background-color: rgb(255, 128, 128);
+    color: black;
+    margin-bottom: 10px;
+}
+
+#gamer-container textarea::placeholder {
+    color: black;
+    font-style: italic;
+}
+
+.gamer-item button {
+    margin-top: auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.gamer-item button:hover {
+    padding: 5px 20px;
+    color: red;
+}
+
+li {
+    color: black;
+    font: 1em Arial, sans-serif;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+    width: 10%;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    background-color: red;
+    color: white;
+}
